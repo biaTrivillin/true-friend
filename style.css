@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-text);
+    font-weight: 700;
+    color: var(--color-text);
+}
+
+body {
+    background-color: var(--color-background);
+}
+
+:root {
+    font-size: 62.5%;
+    --font-title: 'Anton', sans-serif;
+    --font-text: 'Manrope', sans-serif;
+    --color-text: #514B57;
+    --color-background: #F2F2F2;
+    --blue-background: #34B1BF;
+}
+
+/* --------------------- HEADER --------------------- */
+
+header {
+    background-color: #F2D06B;
+    height: 20.5rem;
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 7rem;
+}
+
+header h1 {
+    font-family: var(--font-title);
+    font-size: 3.6rem;
+}
+
+header h2 {
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+.header__paw {
+    position: absolute;
+    top: 0;
+}
+
+.paw__left {
+    left: 0;
+}
+
+.paw__right {
+    right: 0;
+}
+
+#header__cat {
+    width: 25rem;
+    position: absolute;
+    bottom: -2.7rem;
+    left: 4rem;
+}
+
+/* --------------------- ABOUT SECTION --------------------- */
+
+.about {
+    padding: 7rem 4.9rem 0 1.8rem;
+}
+
+.about h1 {
+    font-family: var(--font-title);
+    font-size: 3.6rem;
+}
+
+.about p {
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+/* --------------------- MISSION SECTION --------------------- */
+
+.mission {
+    padding: 2.2rem 1.8rem 7rem 4.9rem;
+    margin-top: 3.3rem;
+    background-color: var(--blue-background);
+    position: relative;
+}
+
+.mission h1 {
+    font-family: var(--font-title);
+    font-size: 3.6rem;
+    text-align: end;
+    color: var(--color-background);
+}
+
+.mission p {
+    font-size: 1.5rem;
+    text-align: justify;
+    color: var(--color-background);
+}
+
+.hand__image {
+    position: absolute;
+    bottom: -5rem;
+    width: 100%;
+    left: 0;
+}
+
+/* --------------------- SERVICES SECTION --------------------- */
