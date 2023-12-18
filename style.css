@@ -20,12 +20,14 @@ body {
     --color-text: #514B57;
     --color-background: #F2F2F2;
     --blue-background: #34B1BF;
+    --yelllow-background: #F2D06B;
+    --lilac-background: #BDB9D4;
 }
 
 /* --------------------- HEADER --------------------- */
 
 header {
-    background-color: #F2D06B;
+    background-color: var(--yelllow-background);
     height: 20.5rem;
     position: relative;
     width: 100%;
@@ -60,7 +62,7 @@ header h2 {
 }
 
 #header__cat {
-    width: 25rem;
+    width: 80%;
     position: absolute;
     bottom: -2.7rem;
     left: 4rem;
@@ -112,3 +114,189 @@ header h2 {
 }
 
 /* --------------------- SERVICES SECTION --------------------- */
+
+.services {
+    padding-top: 9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.services h1 {
+    font-family: var(--font-title);
+    font-size: 3.6rem;
+}
+
+.services__content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 0 5.7rem;
+}
+
+.service__box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 9rem;
+    height: 9.4rem;
+    background-color: #34B1BF;
+    flex-grow: 1;
+}
+
+.service__box h2 {
+    font-size: 1rem;
+    font-weight: 800;
+    color: var(--color-background);
+}
+
+.service__image {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 30%;
+}
+
+#grooming__img, #adoption__img, #veterinary__img{
+    background-color: transparent;
+}
+
+#grooming__img {
+    border: 0.3rem solid var(--blue-background);
+}
+
+#adoption__img {
+    border: 0.3rem solid var(--yelllow-background);
+}
+
+#veterinary__img {
+    border: 0.3rem solid var(--lilac-background);
+}
+
+#grooming__text {
+    background-color: var(--blue-background);
+}
+
+#adoption__text {
+    background-color: var(--yelllow-background);
+}
+
+#veterinary__text {
+    background-color: var(--lilac-background);
+}
+
+#grooming__text, #veterinary__text, #adoption__text {
+    cursor: pointer;
+}
+
+.service__icon {
+    width: 4.5rem;
+    height: 4.5rem;
+    fill: var(--color-text);
+}
+
+/* --------------------- VETERINARY SERVICE SECTION --------------------- */
+
+.veterinary__service {
+    padding: 2.8rem 1.8rem 0 1.8rem;
+    margin-top: 9rem;
+    /* background-color: var(--lilac-background); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+#veterinary__background {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 37rem;
+    background-color: var(--lilac-background);
+    top: 0;
+    z-index: -1;
+}
+
+.veterinary__service h1 {
+    font-family: var(--font-title);
+    font-size: 3rem;
+    align-self: start;
+    padding-bottom: 5%;
+}
+
+.veterinary__service p {
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+#veterinary__cat__img {
+    width: 20rem;
+}
+
+.veterinary__list__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.veterinary__list {
+    width: 29rem;
+    background-color: transparent;
+    border: 0.5rem solid var(--color-text);
+    list-style: none;
+    padding: 1.4rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.veterinary__list h3 {
+    font-size: 2rem;
+    font-family: var(--font-title);
+}
+
+.veterinary__list p {
+    font-size: 1rem;
+}
+
+#veterinary__cta__conateiner {
+    background-color: var(--lilac-background);
+    padding: 1rem 3rem 5.5rem 3rem;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: column;
+    margin-top: 2.3rem;
+    width: 85%;
+    position: relative;
+}
+
+#veterinary__cta__conateiner h3 {
+    font-weight: 800;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.cta__btn {
+    font-weight: 800;
+    font-size: 1.2rem;
+    background-color: var(--color-text);
+    color: var(--color-background);
+    text-decoration: none;
+    padding: 0.9rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+#veterinary__dog__img {
+    width: 15rem;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+}
