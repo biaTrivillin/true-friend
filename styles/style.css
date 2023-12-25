@@ -1,3 +1,5 @@
+/* --------------------- GLOBAL --------------------- */
+
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@700;800&display=swap');
 
 * {
@@ -28,23 +30,29 @@ svg {
     fill: var(--color-text);
 }
 
+.title {
+    font-family: var(--font-title);
+    font-size: 3.6rem;
+    padding-bottom: 1rem;
+}
+
+.cta__btn {
+    font-weight: 800;
+    font-size: 1.2rem;
+    background-color: var(--color-text);
+    color: var(--color-background);
+    text-decoration: none;
+    padding: 0.9rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
 /* --------------------- HEADER --------------------- */
 
 header {
     background-color: var(--yelllow-background);
     height: 20.5rem;
-    position: relative;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding-bottom: 7rem;
-}
-
-header h1 {
-    font-family: var(--font-title);
-    font-size: 3.6rem;
 }
 
 header h2 {
@@ -52,36 +60,11 @@ header h2 {
     font-weight: 800;
 }
 
-.header__paw {
-    position: absolute;
-    top: 0;
-}
-
-.paw__left {
-    left: 0;
-}
-
-.paw__right {
-    right: 0;
-}
-
 #header__cat {
     width: 80%;
-    position: absolute;
-    bottom: -2.7rem;
-    left: 4rem;
 }
 
 /* --------------------- ABOUT SECTION --------------------- */
-
-.about {
-    padding: 7rem 4.9rem 0 1.8rem;
-}
-
-.about h1 {
-    font-family: var(--font-title);
-    font-size: 3.6rem;
-}
 
 .about p {
     font-size: 1.5rem;
@@ -91,15 +74,10 @@ header h2 {
 /* --------------------- MISSION SECTION --------------------- */
 
 .mission {
-    padding: 2.2rem 1.8rem 7rem 4.9rem;
-    margin-top: 3.3rem;
     background-color: var(--blue-background);
-    position: relative;
 }
 
 .mission h1 {
-    font-family: var(--font-title);
-    font-size: 3.6rem;
     text-align: end;
     color: var(--color-background);
 }
@@ -110,63 +88,22 @@ header h2 {
     color: var(--color-background);
 }
 
-.hand__image {
-    position: absolute;
-    bottom: -5rem;
-    width: 100%;
-    left: 0;
-}
-
 /* --------------------- SERVICES SECTION --------------------- */
 
-.services {
-    padding-top: 9rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 5rem;
-}
-
-.services h1 {
-    font-family: var(--font-title);
-    font-size: 3.6rem;
-}
-
-.services__content {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    padding: 0 5.7rem;
-}
-
 .service__box {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 9rem;
     height: 9.4rem;
     background-color: #34B1BF;
-    flex-grow: 1;
 }
 
 .service__box h2 {
     font-size: 1rem;
     font-weight: 800;
     color: var(--color-background);
-    z-index: 1;
-}
-
-.service__image {
-    position: absolute;
-    overflow: hidden;
-    top: 0;
-    left: 30%;
 }
 
 #grooming__img, #adoption__img, #veterinary__img{
-    background-color: transparent;
+    background-color: var(--color-background);
 }
 
 #grooming__img {
@@ -203,12 +140,8 @@ header h2 {
     fill: var(--color-text);
 }
 
-.service__image {
-    position: absolute;
-}
-
 .service__cat {
-    width: 9rem;
+    height: 5rem;
 }
 
 .service__dog {
@@ -216,35 +149,29 @@ header h2 {
 }
 
 .service__tail {
-    width: 6rem;
+    height: 5.2rem;
 }
+
+.hide__img {
+    height: 9.1rem;
+    width: 9.1rem;
+    background-color: var(--color-background);
+}
+
+.hide__cat {
+    height: 5rem;
+}
+
+.hide__tail {
+    height: 5.2rem;
+}
+
 /* --------------------- VETERINARY SERVICE SECTION --------------------- */
 
-.veterinary__service {
-    padding: 2.8rem 1.8rem 0 1.8rem;
-    margin-top: 9rem;
-    /* background-color: var(--lilac-background); */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    position: relative;
-}
-
 #veterinary__background {
-    overflow: hidden;
-    position: absolute;
     width: 100%;
     height: 37rem;
     background-color: var(--lilac-background);
-    top: 0;
-    z-index: -1;
-}
-
-.veterinary__service h1 {
-    font-family: var(--font-title);
-    font-size: 3rem;
-    align-self: start;
 }
 
 .veterinary__service p {
@@ -256,22 +183,11 @@ header h2 {
     width: 20rem;
 }
 
-.veterinary__list__container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-}
-
 .veterinary__list {
     width: 29rem;
     background-color: transparent;
     border: 0.5rem solid var(--color-text);
     list-style: none;
-    padding: 1.4rem;
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
 }
 
 .veterinary__list h3 {
@@ -285,15 +201,8 @@ header h2 {
 
 #veterinary__cta__conateiner {
     background-color: var(--lilac-background);
-    padding: 1rem 3rem 5.5rem 3rem;
     font-weight: 800;
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    flex-direction: column;
-    margin-top: 2.3rem;
     width: 85%;
-    position: relative;
 }
 
 #veterinary__cta__conateiner h3 {
@@ -302,29 +211,13 @@ header h2 {
     text-align: center;
 }
 
-.cta__btn {
-    font-weight: 800;
-    font-size: 1.2rem;
-    background-color: var(--color-text);
-    color: var(--color-background);
-    text-decoration: none;
-    padding: 0.9rem;
-    border-radius: 0.5rem;
-    cursor: pointer;
-}
-
 #veterinary__dog__img {
     width: 15rem;
-    overflow: hidden;
-    position: absolute;
-    bottom: 0;
 }
 
 /* --------------------- GROOMING SERVICE SECTION --------------------- */
 
 .grooming__service h1 {
-    font-family: var(--font-title);
-    font-size: 3rem;
     color: var(--color-background);
 }
 
@@ -336,41 +229,16 @@ header h2 {
 
 .grooming__container {
     background-color: var(--blue-background);
-    padding: 2.7rem 1.8rem;
-    margin-top: 7rem;
-}
-
-.grooming__list__container {
-    display: flex;
-    flex-direction: column;
-    gap: 1.7rem;
-    align-items: start;
-    padding: 3rem 1.8rem;
 }
 
 .grooming__item {
-    display: flex;
-    gap: 0.8rem;
     font-size: 1.2rem;
     font-weight: 800;
 }
 
-/* .grooming__item svg {
-    fill: var(--color-text);
-} */
-
 .grooming__cta__container {
     background-color: var(--blue-background);
-    margin: 0 1.8rem;
-    position: relative;
     height: 12rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 0.9rem;
-    padding: 0 8rem 0 3rem;
-    margin-bottom: 7rem;
 }
 
 .grooming__cta__container h3 {
@@ -381,56 +249,30 @@ header h2 {
 
 #grooming__dog__img {
     width: 11rem;
-    position: absolute;
-    overflow: hidden;
-    right: -1.8rem;
-    bottom: -4rem;
 }
 
 /* --------------------- ADOPTION SERVICE SECTION --------------------- */
 
 .adoption__service {
-    padding: 2.7rem 1.8rem;
     background-color: var(--yelllow-background);
-}
-
-.adoption__service h1{
-    font-family: var(--font-title);
-    font-size: 3rem;
 }
 
 .adoption__service p {
     font-size: 1.5rem;
     text-align: justify;
-    padding-bottom: 5rem;
-}
-
-.adoption__tools__container {
-    position: relative;
 }
 
 #adoption__cat__img {
-    position: absolute;
     height: 20rem;
-    overflow: hidden;
-    right: 5rem;
-    top: -11.7rem;
 }
 
 .adoption__itens__container {
     list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 3.2rem 0;
     background-color: var(--color-background);
 
 }
 
 .adoption__item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     font-size: 1.2rem;
     font-weight: 800;
 }
@@ -440,27 +282,15 @@ header h2 {
     font-weight: 800;
 }
 
-.adoption__cta__container {
-    padding: 2rem 0;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    gap: 1rem;
-}
-
 /* --------------------- PARTNERSHIPS SECTION --------------------- */
 
 .partnerships h1 {
-    font-family: var(--font-title);
-    font-size: 3rem;
+    text-align: center;
 }
 
 /* --------------------- CONTACT US SECTION --------------------- */
 
 .contact h1 {
-    font-family: var(--font-title);
-    font-size: 3rem;
-    padding: 2.7rem 1.8rem;
     text-align: center;
 }
 
@@ -468,38 +298,17 @@ header h2 {
     background-color: var(--lilac-background);
     font-size: 1.5rem;
     font-weight: 800;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
     text-align: center;
-    gap: 2.4rem;
-    padding: 1.8rem 0;
-    margin: 5.5rem 2.5rem;
-    position: relative;
-}
-
-.contact__item {
-    display: flex;
-    gap: 1rem;
 }
 
 .contact__dog__img {
     width: 15rem;
-    position: absolute;
-    top: -8.4rem;
-
 }
 
-/* --------------------- CONTACT US SECTION --------------------- */
+/* --------------------- FOOTER --------------------- */
 
 footer {
     background-color: var(--blue-background);
-    padding: 1.8rem;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
-    row-gap: 0.5rem;
 }
 
 footer h3 {
@@ -511,16 +320,6 @@ footer h3 {
 footer h4 {
     font-size: 1.3rem;
     color: var(--color-background);
-    grid-row: 2/3;
-    align-self: end;
-}
-
-.footer__icons {
-    grid-area: 2/2/3/3;
-    align-self: end;
-    justify-self: end;
-    display: flex;
-    gap: 0.5rem;
 }
 
 .icon {
