@@ -61,7 +61,7 @@ header h2 {
 }
 
 #header__cat {
-    width: 80%;
+    width: 25.6rem;
 }
 
 /* --------------------- ABOUT SECTION --------------------- */
@@ -75,6 +75,7 @@ header h2 {
 
 .mission {
     background-color: var(--blue-background);
+    min-height: 30rem;
 }
 
 .mission h1 {
@@ -86,6 +87,10 @@ header h2 {
     font-size: 1.5rem;
     text-align: justify;
     color: var(--color-background);
+}
+
+.hand__image {
+    width: 100%;
 }
 
 /* --------------------- SERVICES SECTION --------------------- */
@@ -132,6 +137,7 @@ header h2 {
 
 #grooming__text, #veterinary__text, #adoption__text {
     cursor: pointer;
+    z-index: 1;
 }
 
 .service__icon {

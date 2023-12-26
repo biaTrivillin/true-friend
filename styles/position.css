@@ -25,7 +25,7 @@ header {
 #header__cat {
     position: absolute;
     bottom: -2.7rem;
-    left: 4rem;
+    left: 12%;
 }
 
 /* --------------------- ABOUT SECTION --------------------- */
@@ -45,7 +45,6 @@ header {
 .hand__image {
     position: absolute;
     bottom: -5rem;
-    width: 100%;
     left: 0;
 }
 
