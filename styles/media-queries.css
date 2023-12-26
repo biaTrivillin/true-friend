@@ -49,6 +49,7 @@
     padding-top: 3rem;
     margin-top: 8rem;
     padding-right: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
   .about p, .about h1 {
@@ -104,6 +105,10 @@
     padding: 0 2rem;
   }
 
+  .grooming__service {
+    margin-top: 11rem;
+  }
+
   .grooming__cta__container {
     margin: 0;
     align-self: center;
@@ -112,11 +117,17 @@
 
   .adoption__service {
     margin-top: 8rem;
+    padding-bottom: 5rem;
+    margin-bottom: 5rem;
   }
 
   .adoption__cta__container {
     justify-self: center;
     align-items: center;
+  }
+
+  .adoption__tools__container {
+    margin-left: 2rem;
   }
 
   footer h3 {

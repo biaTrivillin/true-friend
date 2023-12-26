@@ -103,7 +103,7 @@ header {
     left: 0;
     right: 0;
     margin: 0 auto;
-    top: -5rem;
+    top: -4rem;
 }
 
 .service__dog {
@@ -112,7 +112,7 @@ header {
 }
 
 .service__tail {
-    top: 8.5rem;
+    top: 8.7rem;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -258,7 +258,7 @@ header {
     position: absolute;
     overflow: hidden;
     right: 5rem;
-    top: -11.7rem;
+    top: -11.65rem;
 }
 
 .adoption__itens__container {

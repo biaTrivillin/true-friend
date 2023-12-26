@@ -11,8 +11,8 @@ for (let i = 0; i < serviceList.length; i++) {
 
     if(i == 0){
 
-        distanceOver = 'translateY(5rem)'
-        distanceDown = 'translateY(1rem)'
+        distanceOver = 'translateY(3rem)'
+        distanceDown = 'translateY(-1rem)'
 
     } else if(i == 1) {
 
