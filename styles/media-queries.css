@@ -22,6 +22,7 @@
   .two__section {
     display: grid;
     grid-template-columns: 50% 50%;
+    margin-top: 8rem;
   }  
 
   .mission h1 {
@@ -36,6 +37,7 @@
   .mission {
     padding-left: 1.8rem;
     background-color: transparent;
+    margin: 0;
   }
 
   .about {
@@ -43,7 +45,6 @@
     padding-bottom: 5rem;
     padding-top: 6rem;
     padding: 3rem 1.8rem 5rem 1.8rem;
-    margin-top: 3rem;
   }
 
   .hand__image {

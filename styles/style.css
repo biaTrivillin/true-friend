@@ -138,6 +138,7 @@ header h2 {
 #grooming__text, #veterinary__text, #adoption__text {
     cursor: pointer;
     z-index: 1;
+    text-decoration: none;
 }
 
 .service__icon {
