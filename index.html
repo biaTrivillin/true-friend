@@ -22,12 +22,12 @@
         <div class="two__section">
             <section class="about">
                 <h1 class="title">About Us</h1>
-                <p>We are a team of dedicated professionals who share an unconditional love for our furry friends. Our commitment is to provide the best possible care for every animal that crosses our path, whether it's offering exceptional medical treatments or finding them a home filled with love and care.</p>
+                <p class="text">We are a team of dedicated professionals who share an unconditional love for our furry friends. Our commitment is to provide the best possible care for every animal that crosses our path, whether it's offering exceptional medical treatments or finding them a home filled with love and care.</p>
             </section>
 
             <section class="mission">
                 <h1 class="title">Our Mission</h1>
-                <p>Our mission is more than just healing and caring; it's about creating bonds that last a lifetime. We believe that every animal deserves a fulfilling and happy life, and we work tirelessly to ensure that is the outcome of our dedication.</p>
+                <p class="text">Our mission is more than just healing and caring; it's about creating bonds that last a lifetime. We believe that every animal deserves a fulfilling and happy life, and we work tirelessly to ensure that is the outcome of our dedication.</p>
                 <img class="hand__image" src="./assets/paw-hand.png" alt="human hand holding a dog paw">
             </section>
         </div>
@@ -66,9 +66,11 @@
 
         <section class="veterinary__service" id="veterinary__section">
             <div id="veterinary__background"></div>
-            <h1 class="title">Veterinary Service</h1>
-            <p>We prioritize the health and happiness of your beloved pets. Our dedicated team of experienced veterinarians and compassionate staff is committed to providing top-tier veterinary care for your furry family members.</p>
-            <img id="veterinary__cat__img" src="./assets/doctor-cat.png" alt="cat dressed like a doctor">
+            <div class="veterinary__content">
+                <h1 class="title">Veterinary Service</h1>
+                <p class="text">We prioritize the health and happiness of your beloved pets. Our dedicated team of experienced veterinarians and compassionate staff is committed to providing top-tier veterinary care for your furry family members.</p>
+                <img id="veterinary__cat__img" src="./assets/doctor-cat.png" alt="cat dressed like a doctor">
+            </div>
             <ul class="veterinary__list__container">
                 <li class="veterinary__list">
                     <h3>Wellness Examinations:</h3>
@@ -97,96 +99,102 @@
         <section class="grooming__service" id="grooming__section">
             <div class="grooming__container">
                 <h1 class="title">Grooming Service</h1>
-                <p>Indulge your furry friend in the ultimate spa experience with our top-notch pet grooming services with passionate and skilled groomers and only the finest grooming products.</p>
+                <p class="text">Indulge your furry friend in the ultimate spa experience with our top-notch pet grooming services with passionate and skilled groomers and only the finest grooming products.</p>
             </div>
-            <ul class="grooming__list__container">
-                <li class="grooming__item">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 512 512"><path d="M96 77.3c0-7.3 5.9-13.3 13.3-13.3c3.5 0 6.9 1.4 9.4 3.9l14.9 14.9C130 91.8 128 101.7 128 112c0 19.9 7.2 38 19.2 52c-5.3 9.2-4 21.1 3.8 29c9.4 9.4 24.6 9.4 33.9 0L289 89c9.4-9.4 9.4-24.6 0-33.9c-7.9-7.9-19.8-9.1-29-3.8C246 39.2 227.9 32 208 32c-10.3 0-20.2 2-29.2 5.5L163.9 22.6C149.4 8.1 129.7 0 109.3 0C66.6 0 32 34.6 32 77.3V256c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H96V77.3zM32 352v16c0 28.4 12.4 54 32 71.6V480c0 17.7 14.3 32 32 32s32-14.3 32-32V464H384v16c0 17.7 14.3 32 32 32s32-14.3 32-32V439.6c19.6-17.6 32-43.1 32-71.6V352H32z"/></svg>
-                    <h3>LUXURIOUS BATH</h3>
-                </li>
-                <li class="grooming__item">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 512 512"><path d="M256 192l-39.5-39.5c4.9-12.6 7.5-26.2 7.5-40.5C224 50.1 173.9 0 112 0S0 50.1 0 112s50.1 112 112 112c14.3 0 27.9-2.7 40.5-7.5L192 256l-39.5 39.5c-12.6-4.9-26.2-7.5-40.5-7.5C50.1 288 0 338.1 0 400s50.1 112 112 112s112-50.1 112-112c0-14.3-2.7-27.9-7.5-40.5L499.2 76.8c7.1-7.1 7.1-18.5 0-25.6c-28.3-28.3-74.1-28.3-102.4 0L256 192zm22.6 150.6L396.8 460.8c28.3 28.3 74.1 28.3 102.4 0c7.1-7.1 7.1-18.5 0-25.6L342.6 278.6l-64 64zM64 112a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm48 240a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
-                    <h3>EXPERTS HAIRCUTS</h3>
-                </li>
-                <li class="grooming__item">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 512 512"><path d="M226.5 92.9c14.3 42.9-.3 86.2-32.6 96.8s-70.1-15.6-84.4-58.5s.3-86.2 32.6-96.8s70.1 15.6 84.4 58.5zM100.4 198.6c18.9 32.4 14.3 70.1-10.2 84.1s-59.7-.9-78.5-33.3S-2.7 179.3 21.8 165.3s59.7 .9 78.5 33.3zM69.2 401.2C121.6 259.9 214.7 224 256 224s134.4 35.9 186.8 177.2c3.6 9.7 5.2 20.1 5.2 30.5v1.6c0 25.8-20.9 46.7-46.7 46.7c-11.5 0-22.9-1.4-34-4.2l-88-22c-15.3-3.8-31.3-3.8-46.6 0l-88 22c-11.1 2.8-22.5 4.2-34 4.2C84.9 480 64 459.1 64 433.3v-1.6c0-10.4 1.6-20.8 5.2-30.5zM421.8 282.7c-24.5-14-29.1-51.7-10.2-84.1s54-47.3 78.5-33.3s29.1 51.7 10.2 84.1s-54 47.3-78.5 33.3zM310.1 189.7c-32.3-10.6-46.9-53.9-32.6-96.8s52.1-69.1 84.4-58.5s46.9 53.9 32.6 96.8s-52.1 69.1-84.4 58.5z"/></svg>
-                    <h3>NAIL TRIMMING AND PAWDICURE</h3>
-                </li>
-                <li class="grooming__item">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="18" viewBox="0 0 448 512"><path d="M186.1 52.1C169.3 39.1 148.7 32 127.5 32C74.7 32 32 74.7 32 127.5v6.2c0 15.8 3.7 31.3 10.7 45.5l23.5 47.1c4.5 8.9 7.6 18.4 9.4 28.2l36.7 205.8c2 11.2 11.6 19.4 22.9 19.8s21.4-7.4 24-18.4l28.9-121.3C192.2 323.7 207 312 224 312s31.8 11.7 35.8 28.3l28.9 121.3c2.6 11.1 12.7 18.8 24 18.4s20.9-8.6 22.9-19.8l36.7-205.8c1.8-9.8 4.9-19.3 9.4-28.2l23.5-47.1c7.1-14.1 10.7-29.7 10.7-45.5v-2.1c0-55-44.6-99.6-99.6-99.6c-24.1 0-47.4 8.8-65.6 24.6l-3.2 2.8 19.5 15.2c7 5.4 8.2 15.5 2.8 22.5s-15.5 8.2-22.5 2.8l-24.4-19-37-28.8z"/></svg>
-                    <h3>EAR CLEANING AND TEETH  BRUSHING</h3>
-                </li>
-            </ul>
-            <div class="grooming__cta__container">
-                <h3>BOOK YOUR PET'S SPA DAY NOW:</h3>
-                <a class="cta__btn" href="#">BOOK NOW</a>
-                <img id="grooming__dog__img" src="./assets/grooming-dog.png" alt="dog brushing tooth wering a shower cap">
+            <div class="two__section">
+                <ul class="grooming__list__container">
+                    <li class="grooming__item">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 512 512"><path d="M96 77.3c0-7.3 5.9-13.3 13.3-13.3c3.5 0 6.9 1.4 9.4 3.9l14.9 14.9C130 91.8 128 101.7 128 112c0 19.9 7.2 38 19.2 52c-5.3 9.2-4 21.1 3.8 29c9.4 9.4 24.6 9.4 33.9 0L289 89c9.4-9.4 9.4-24.6 0-33.9c-7.9-7.9-19.8-9.1-29-3.8C246 39.2 227.9 32 208 32c-10.3 0-20.2 2-29.2 5.5L163.9 22.6C149.4 8.1 129.7 0 109.3 0C66.6 0 32 34.6 32 77.3V256c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H96V77.3zM32 352v16c0 28.4 12.4 54 32 71.6V480c0 17.7 14.3 32 32 32s32-14.3 32-32V464H384v16c0 17.7 14.3 32 32 32s32-14.3 32-32V439.6c19.6-17.6 32-43.1 32-71.6V352H32z"/></svg>
+                        <h3>LUXURIOUS BATH</h3>
+                    </li>
+                    <li class="grooming__item">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 512 512"><path d="M256 192l-39.5-39.5c4.9-12.6 7.5-26.2 7.5-40.5C224 50.1 173.9 0 112 0S0 50.1 0 112s50.1 112 112 112c14.3 0 27.9-2.7 40.5-7.5L192 256l-39.5 39.5c-12.6-4.9-26.2-7.5-40.5-7.5C50.1 288 0 338.1 0 400s50.1 112 112 112s112-50.1 112-112c0-14.3-2.7-27.9-7.5-40.5L499.2 76.8c7.1-7.1 7.1-18.5 0-25.6c-28.3-28.3-74.1-28.3-102.4 0L256 192zm22.6 150.6L396.8 460.8c28.3 28.3 74.1 28.3 102.4 0c7.1-7.1 7.1-18.5 0-25.6L342.6 278.6l-64 64zM64 112a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm48 240a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                        <h3>EXPERTS HAIRCUTS</h3>
+                    </li>
+                    <li class="grooming__item">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 512 512"><path d="M226.5 92.9c14.3 42.9-.3 86.2-32.6 96.8s-70.1-15.6-84.4-58.5s.3-86.2 32.6-96.8s70.1 15.6 84.4 58.5zM100.4 198.6c18.9 32.4 14.3 70.1-10.2 84.1s-59.7-.9-78.5-33.3S-2.7 179.3 21.8 165.3s59.7 .9 78.5 33.3zM69.2 401.2C121.6 259.9 214.7 224 256 224s134.4 35.9 186.8 177.2c3.6 9.7 5.2 20.1 5.2 30.5v1.6c0 25.8-20.9 46.7-46.7 46.7c-11.5 0-22.9-1.4-34-4.2l-88-22c-15.3-3.8-31.3-3.8-46.6 0l-88 22c-11.1 2.8-22.5 4.2-34 4.2C84.9 480 64 459.1 64 433.3v-1.6c0-10.4 1.6-20.8 5.2-30.5zM421.8 282.7c-24.5-14-29.1-51.7-10.2-84.1s54-47.3 78.5-33.3s29.1 51.7 10.2 84.1s-54 47.3-78.5 33.3zM310.1 189.7c-32.3-10.6-46.9-53.9-32.6-96.8s52.1-69.1 84.4-58.5s46.9 53.9 32.6 96.8s-52.1 69.1-84.4 58.5z"/></svg>
+                        <h3>NAIL TRIMMING AND PAWDICURE</h3>
+                    </li>
+                    <li class="grooming__item">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="20" width="18" viewBox="0 0 448 512"><path d="M186.1 52.1C169.3 39.1 148.7 32 127.5 32C74.7 32 32 74.7 32 127.5v6.2c0 15.8 3.7 31.3 10.7 45.5l23.5 47.1c4.5 8.9 7.6 18.4 9.4 28.2l36.7 205.8c2 11.2 11.6 19.4 22.9 19.8s21.4-7.4 24-18.4l28.9-121.3C192.2 323.7 207 312 224 312s31.8 11.7 35.8 28.3l28.9 121.3c2.6 11.1 12.7 18.8 24 18.4s20.9-8.6 22.9-19.8l36.7-205.8c1.8-9.8 4.9-19.3 9.4-28.2l23.5-47.1c7.1-14.1 10.7-29.7 10.7-45.5v-2.1c0-55-44.6-99.6-99.6-99.6c-24.1 0-47.4 8.8-65.6 24.6l-3.2 2.8 19.5 15.2c7 5.4 8.2 15.5 2.8 22.5s-15.5 8.2-22.5 2.8l-24.4-19-37-28.8z"/></svg>
+                        <h3>EAR CLEANING AND TEETH  BRUSHING</h3>
+                    </li>
+                </ul>
+                <div class="grooming__cta__container">
+                    <h3>BOOK YOUR PET'S SPA DAY NOW:</h3>
+                    <a class="cta__btn" href="#">BOOK NOW</a>
+                    <img id="grooming__dog__img" src="./assets/grooming-dog.png" alt="dog brushing tooth wering a shower cap">
+                </div>
             </div>
         </section>
 
         <section class="adoption__service" id="adoption__section">
             <h1 class="title">Adoption Service</h1>
-            <p>We believe in the power of love and second chances. In collaboration with The RescuePaws Foundation, our adoption services go beyond finding homes – we create families. Discover the joy of bringing a new furry friend into your life through our dedicated adoption program.</p>
-            <div class="adoption__tools__container">
-                <img id="adoption__cat__img" src="./assets/adoption-cat.png" alt="black cat">
-                <ul class="adoption__itens__container">
-                    <li class="adoption__item">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="40" width="40" viewBox="0 0 512 512"><path d="M226.5 92.9c14.3 42.9-.3 86.2-32.6 96.8s-70.1-15.6-84.4-58.5s.3-86.2 32.6-96.8s70.1 15.6 84.4 58.5zM100.4 198.6c18.9 32.4 14.3 70.1-10.2 84.1s-59.7-.9-78.5-33.3S-2.7 179.3 21.8 165.3s59.7 .9 78.5 33.3zM69.2 401.2C121.6 259.9 214.7 224 256 224s134.4 35.9 186.8 177.2c3.6 9.7 5.2 20.1 5.2 30.5v1.6c0 25.8-20.9 46.7-46.7 46.7c-11.5 0-22.9-1.4-34-4.2l-88-22c-15.3-3.8-31.3-3.8-46.6 0l-88 22c-11.1 2.8-22.5 4.2-34 4.2C84.9 480 64 459.1 64 433.3v-1.6c0-10.4 1.6-20.8 5.2-30.5zM421.8 282.7c-24.5-14-29.1-51.7-10.2-84.1s54-47.3 78.5-33.3s29.1 51.7 10.2 84.1s-54 47.3-78.5 33.3zM310.1 189.7c-32.3-10.6-46.9-53.9-32.6-96.8s52.1-69.1 84.4-58.5s46.9 53.9 32.6 96.8s-52.1 69.1-84.4 58.5z"/></svg>
-                        <h3>RESCUE</h3>
-                    </li>
-                    <li class="adoption__item">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="40" width="42" viewBox="0 0 576 512"><path d="M142.4 21.9c5.6 16.8-3.5 34.9-20.2 40.5L96 71.1V192c0 53 43 96 96 96s96-43 96-96V71.1l-26.1-8.7c-16.8-5.6-25.8-23.7-20.2-40.5s23.7-25.8 40.5-20.2l26.1 8.7C334.4 19.1 352 43.5 352 71.1V192c0 77.2-54.6 141.6-127.3 156.7C231 404.6 278.4 448 336 448c61.9 0 112-50.1 112-112V265.3c-28.3-12.3-48-40.5-48-73.3c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V336c0 97.2-78.8 176-176 176c-92.9 0-168.9-71.9-175.5-163.1C87.2 334.2 32 269.6 32 192V71.1c0-27.5 17.6-52 43.8-60.7l26.1-8.7c16.8-5.6 34.9 3.5 40.5 20.2zM480 224a32 32 0 1 0 0-64 32 32 0 1 0 0 64z"/></svg>
-                        <h3>CARE FOR</h3>
-                    </li>
-                    <li class="adoption__item">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="40" width="42" viewBox="0 0 576 512"><path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg>
-                        <h3>FIND A HOME</h3>
-                    </li>
-                </ul>
-            </div>
-            <div class="adoption__cta__container">
-                <h3 class="cta__text">MEET YOUR NEXT FRIEND:</h3>
-                <a class="cta__btn" href="#">KNOW THE PETS</a>
+            <p class="text">We believe in the power of love and second chances. In collaboration with The RescuePaws Foundation, our adoption services go beyond finding homes – we create families. Discover the joy of bringing a new furry friend into your life through our dedicated adoption program.</p>
+            <div class="two__section">
+                <div class="adoption__tools__container">
+                    <img id="adoption__cat__img" src="./assets/adoption-cat.png" alt="black cat">
+                    <ul class="adoption__itens__container">
+                        <li class="adoption__item">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="40" width="40" viewBox="0 0 512 512"><path d="M226.5 92.9c14.3 42.9-.3 86.2-32.6 96.8s-70.1-15.6-84.4-58.5s.3-86.2 32.6-96.8s70.1 15.6 84.4 58.5zM100.4 198.6c18.9 32.4 14.3 70.1-10.2 84.1s-59.7-.9-78.5-33.3S-2.7 179.3 21.8 165.3s59.7 .9 78.5 33.3zM69.2 401.2C121.6 259.9 214.7 224 256 224s134.4 35.9 186.8 177.2c3.6 9.7 5.2 20.1 5.2 30.5v1.6c0 25.8-20.9 46.7-46.7 46.7c-11.5 0-22.9-1.4-34-4.2l-88-22c-15.3-3.8-31.3-3.8-46.6 0l-88 22c-11.1 2.8-22.5 4.2-34 4.2C84.9 480 64 459.1 64 433.3v-1.6c0-10.4 1.6-20.8 5.2-30.5zM421.8 282.7c-24.5-14-29.1-51.7-10.2-84.1s54-47.3 78.5-33.3s29.1 51.7 10.2 84.1s-54 47.3-78.5 33.3zM310.1 189.7c-32.3-10.6-46.9-53.9-32.6-96.8s52.1-69.1 84.4-58.5s46.9 53.9 32.6 96.8s-52.1 69.1-84.4 58.5z"/></svg>
+                            <h3>RESCUE</h3>
+                        </li>
+                        <li class="adoption__item">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="40" width="42" viewBox="0 0 576 512"><path d="M142.4 21.9c5.6 16.8-3.5 34.9-20.2 40.5L96 71.1V192c0 53 43 96 96 96s96-43 96-96V71.1l-26.1-8.7c-16.8-5.6-25.8-23.7-20.2-40.5s23.7-25.8 40.5-20.2l26.1 8.7C334.4 19.1 352 43.5 352 71.1V192c0 77.2-54.6 141.6-127.3 156.7C231 404.6 278.4 448 336 448c61.9 0 112-50.1 112-112V265.3c-28.3-12.3-48-40.5-48-73.3c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V336c0 97.2-78.8 176-176 176c-92.9 0-168.9-71.9-175.5-163.1C87.2 334.2 32 269.6 32 192V71.1c0-27.5 17.6-52 43.8-60.7l26.1-8.7c16.8-5.6 34.9 3.5 40.5 20.2zM480 224a32 32 0 1 0 0-64 32 32 0 1 0 0 64z"/></svg>
+                            <h3>CARE FOR</h3>
+                        </li>
+                        <li class="adoption__item">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="40" width="42" viewBox="0 0 576 512"><path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg>
+                            <h3>FIND A HOME</h3>
+                        </li>
+                    </ul>
+                </div>
+                <div class="adoption__cta__container">
+                    <h3 class="cta__text">MEET YOUR NEXT FRIEND:</h3>
+                    <a class="cta__btn" href="#">KNOW THE PETS</a>
+                </div>
             </div>
         </section>
 
-        <section class="partnerships">
-            <h1 class="title">Partnerships</h1>
-            <div class="glider-contain">
-                <div class="glider">
-                  <div><img class="logo" src="./assets/logo-1.png" alt=""></div>
-                  <div><img class="logo" src="./assets/logo-2.png" alt=""></div>
-                  <div><img class="logo" src="./assets/logo-3.png" alt=""></div>
-                  <div><img class="logo" src="./assets/logo-4.png" alt=""></div>
-                  <div><img class="logo" src="./assets/logo-5.png" alt=""></div>
+        <div class="two__section">
+            <section class="contact">
+                <h1 class="title">Contact Us</h1>
+                <div class="contact__container">
+                    <img class="contact__dog__img" src="./assets/dog-ears.png" alt="dog ears">
+                    <h3>ANY ISSUES OR QUESTIONS, FEEL FREE TO REACH OUT. </h3>
+                    <h3>WE'RE ALL EARS.</h3>
+                    <div class="contact__item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="20" viewBox="0 0 30 24" fill="none">
+                            <path d="M3.75 2.89175C3.23438 2.89175 2.8125 3.32551 2.8125 3.85567V5.18708L12.9199 13.7177C14.1328 14.7419 15.873 14.7419 17.0859 13.7177L27.1875 5.18708V3.85567C27.1875 3.32551 26.7656 2.89175 26.25 2.89175H3.75ZM2.8125 8.92828V19.2783C2.8125 19.8085 3.23438 20.2423 3.75 20.2423H26.25C26.7656 20.2423 27.1875 19.8085 27.1875 19.2783V8.92828L18.8672 15.9528C16.6172 17.8505 13.377 17.8505 11.1328 15.9528L2.8125 8.92828ZM0 3.85567C0 1.72903 1.68164 0 3.75 0H26.25C28.3184 0 30 1.72903 30 3.85567V19.2783C30 21.405 28.3184 23.134 26.25 23.134H3.75C1.68164 23.134 0 21.405 0 19.2783V3.85567Z" fill="#514B57"/>
+                        </svg>
+                        <h3>sac@truefriend.com</h3>
+                    </div>
+                    <div class="contact__item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 30 31" fill="none">
+                            <path d="M9.66168 1.48332C9.21053 0.362811 8.02113 -0.233586 6.88446 0.0856974L1.72844 1.53151C0.708953 1.82067 0 2.7725 0 3.85686C0 18.7608 11.7534 30.8453 26.2488 30.8453C27.3035 30.8453 28.2292 30.1164 28.5105 29.0682L29.9166 23.7669C30.2272 22.5982 29.6471 21.3753 28.5573 20.9114L22.9326 18.5017C21.9775 18.0921 20.8702 18.3752 20.2198 19.2005L17.8527 22.1705C13.7279 20.1644 10.3882 16.7306 8.43713 12.4896L11.3257 10.0618C12.1284 9.38709 12.4037 8.25453 12.0053 7.27259L9.66168 1.48934V1.48332Z" fill="#514B57"/>
+                        </svg>
+                        <h3>(99) 99 9999-9999</h3>
+                    </div>
                 </div>
-              
-                <button aria-label="Previous" class="glider-prev">«</button>
-                <button aria-label="Next" class="glider-next">»</button>
-                <div role="tablist" class="dots"></div>
-              </div>
-        </section>
+            </section>
 
-        <section class="contact">
-            <h1 class="title">Contact Us</h1>
-            <div class="contact__container">
-                <img class="contact__dog__img" src="./assets/dog-ears.png" alt="dog ears">
-                <h3>ANY ISSUES OR QUESTIONS, FEEL FREE TO REACH OUT. </h3>
-                <h3>WE'RE ALL EARS.</h3>
-                <div class="contact__item">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="20" viewBox="0 0 30 24" fill="none">
-                        <path d="M3.75 2.89175C3.23438 2.89175 2.8125 3.32551 2.8125 3.85567V5.18708L12.9199 13.7177C14.1328 14.7419 15.873 14.7419 17.0859 13.7177L27.1875 5.18708V3.85567C27.1875 3.32551 26.7656 2.89175 26.25 2.89175H3.75ZM2.8125 8.92828V19.2783C2.8125 19.8085 3.23438 20.2423 3.75 20.2423H26.25C26.7656 20.2423 27.1875 19.8085 27.1875 19.2783V8.92828L18.8672 15.9528C16.6172 17.8505 13.377 17.8505 11.1328 15.9528L2.8125 8.92828ZM0 3.85567C0 1.72903 1.68164 0 3.75 0H26.25C28.3184 0 30 1.72903 30 3.85567V19.2783C30 21.405 28.3184 23.134 26.25 23.134H3.75C1.68164 23.134 0 21.405 0 19.2783V3.85567Z" fill="#514B57"/>
-                      </svg>
-                    <h3>sac@truefriend.com</h3>
+            <section class="partnerships">
+                <h1 class="title">Partnerships</h1>
+                <div class="glider-contain">
+                    <div class="glider">
+                    <div><img class="logo" src="./assets/logo-1.png" alt=""></div>
+                    <div><img class="logo" src="./assets/logo-2.png" alt=""></div>
+                    <div><img class="logo" src="./assets/logo-3.png" alt=""></div>
+                    <div><img class="logo" src="./assets/logo-4.png" alt=""></div>
+                    <div><img class="logo" src="./assets/logo-5.png" alt=""></div>
+                    </div>
+                
+                    <button aria-label="Previous" class="glider-prev">«</button>
+                    <button aria-label="Next" class="glider-next">»</button>
+                    <div role="tablist" class="dots"></div>
                 </div>
-                <div class="contact__item">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 30 31" fill="none">
-                        <path d="M9.66168 1.48332C9.21053 0.362811 8.02113 -0.233586 6.88446 0.0856974L1.72844 1.53151C0.708953 1.82067 0 2.7725 0 3.85686C0 18.7608 11.7534 30.8453 26.2488 30.8453C27.3035 30.8453 28.2292 30.1164 28.5105 29.0682L29.9166 23.7669C30.2272 22.5982 29.6471 21.3753 28.5573 20.9114L22.9326 18.5017C21.9775 18.0921 20.8702 18.3752 20.2198 19.2005L17.8527 22.1705C13.7279 20.1644 10.3882 16.7306 8.43713 12.4896L11.3257 10.0618C12.1284 9.38709 12.4037 8.25453 12.0053 7.27259L9.66168 1.48934V1.48332Z" fill="#514B57"/>
-                      </svg>
-                    <h3>(99) 99 9999-9999</h3>
-                </div>
-            </div>
-        </section>
+            </section>
+        </div>
     </main>
     <footer>
         <h3>True <br>Friend</h3>

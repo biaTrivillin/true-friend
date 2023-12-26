@@ -22,8 +22,11 @@
   .two__section {
     display: grid;
     grid-template-columns: 50% 50%;
-    margin-top: 8rem;
   }  
+
+  main {
+    margin: 0 3rem;
+  }
 
   .mission h1 {
     text-align: start;
@@ -35,16 +38,21 @@
   }
 
   .mission {
+    margin-top: 8rem;
     padding-left: 1.8rem;
     background-color: transparent;
-    margin: 0;
   }
 
   .about {
     background-color: #34B1BF;
     padding-bottom: 5rem;
-    padding-top: 6rem;
-    padding: 3rem 1.8rem 5rem 1.8rem;
+    padding-top: 3rem;
+    margin-top: 8rem;
+    padding-right: 2rem;
+  }
+
+  .about p, .about h1 {
+    color: #F2F2F2;
   }
 
   .hand__image {
@@ -52,5 +60,70 @@
     bottom: 0;
     left: 0;
     z-index: -1;
+  }
+
+  .contact__container {
+    font-size: 97%;
+  }
+
+  .partnerships {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .veterinary__service p {
+    grid-column: 1/2;
+    padding-bottom: 15%;
+  }
+
+  .veterinary__content {
+    display: grid;
+    grid-template-columns: 60% 40%;
+  }
+
+  #veterinary__cat__img {
+    align-self: end;
+    grid-row: 1/3;
+    grid-column: 2/3;
+  }
+
+  #veterinary__background {
+    height: 35%;
+  }
+
+  .veterinary__list p {
+    padding: 0;
+  }
+
+  .title {
+    padding: 0 2rem 2rem ;
+  }
+
+  .text {
+    padding: 0 2rem;
+  }
+
+  .grooming__cta__container {
+    margin: 0;
+    align-self: center;
+    justify-self: center;
+  }
+
+  .adoption__service {
+    margin-top: 8rem;
+  }
+
+  .adoption__cta__container {
+    justify-self: center;
+    align-items: center;
+  }
+
+  footer h3 {
+    font-size: 3rem;
+  }
+
+  footer svg {
+    height: 2.5rem;
   }
 }
