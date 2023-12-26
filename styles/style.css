@@ -1,6 +1,7 @@
 /* --------------------- GLOBAL --------------------- */
 
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@700;800&display=swap');
+@import url('scroller-style.css');
 
 * {
     margin: 0;

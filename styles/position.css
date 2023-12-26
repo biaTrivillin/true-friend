@@ -154,6 +154,12 @@ header {
     position: relative;
 }
 
+.veterinary__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #veterinary__background {
     overflow: hidden;
     position: absolute;
