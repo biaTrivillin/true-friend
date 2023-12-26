@@ -21,7 +21,7 @@ for (let i = 0; i < serviceList.length; i++) {
 
     } else {
 
-        distanceOver = 'translateY(-4.5rem)'
+        distanceOver = 'translateY(-4.3rem)'
         distanceDown = 'translateY(0.5rem)'
         
     }

@@ -16,16 +16,20 @@ header {
 
 .paw__left {
     left: 0;
+    width: 7.7rem;
 }
 
 .paw__right {
     right: 0;
+    width: 4.8rem;
 }
 
 #header__cat {
     position: absolute;
-    bottom: -2.7rem;
-    left: 12%;
+    bottom: -2.8rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
 }
 
 /* --------------------- ABOUT SECTION --------------------- */
@@ -87,7 +91,7 @@ header {
 }
 
 #grooming__img, #adoption__img, #veterinary__img{
-    z-index: 1;
+    z-index: 2;
 }
 
 .service__image {
@@ -97,6 +101,8 @@ header {
 
 .service__cat {
     left: 0;
+    right: 0;
+    margin: 0 auto;
     top: -5rem;
 }
 
@@ -106,8 +112,10 @@ header {
 }
 
 .service__tail {
-    top: 9rem;
+    top: 8.5rem;
     left: 0;
+    right: 0;
+    margin: 0 auto;
 }
 
 .hide__img {
@@ -121,13 +129,17 @@ header {
 }
 
 .hide__cat {
-    top: -5.1rem;
+    top: -5rem;
     left: 0;
+    right: 0;
+    margin: 0 auto;
 }
 
 .hide__tail {
-    bottom: -5.3rem;
+    bottom: -5.2rem;
     left: 0;
+    right: 0;
+    margin: 0 auto;
 }
 
 /* --------------------- VETERINARY SERVICE SECTION --------------------- */

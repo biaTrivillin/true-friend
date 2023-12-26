@@ -1,0 +1,55 @@
+@media (min-width: 420px) {
+    #adoption__img {
+        order: 1;
+    }
+
+    #adoption__text {
+        order: 2;
+    }
+
+    #grooming__text {
+        order: 1;
+    }
+}
+
+@media (min-width: 720px) {
+    :root {
+        font-size: 100%;
+    }
+}
+
+@media (min-width: 930px) {
+  .two__section {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }  
+
+  .mission h1 {
+    text-align: start;
+    color: #514B57;
+  }
+
+  .mission p {
+    color: #514B57;
+  }
+
+  .mission {
+    padding-left: 1.8rem;
+    background-color: transparent;
+  }
+
+  .about {
+    background-color: #34B1BF;
+    padding-bottom: 5rem;
+    padding-top: 6rem;
+    padding: 3rem 1.8rem 5rem 1.8rem;
+    margin-top: 3rem;
+  }
+
+  .hand__image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
+}
