@@ -9,13 +9,14 @@
     <link rel="stylesheet" type="text/css" href="/styles/glider.css">
     <link rel="stylesheet" href="/styles/position.css">
     <link rel="stylesheet" href="/styles/media-queries.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header>
-        <h1>True Friend</h1>
-        <h2>We care for all pets</h2>
-        <img class="header__paw paw__right" src="./assets/dog-paw-one.png" alt="dog paw prints">
-        <img class="header__paw paw__left" src="./assets/dog-paw-two.png" alt="dog paw prints">
+        <h1 data-aos="fade-up">True Friend</h1>
+        <h2 data-aos="fade-up">We care for all pets</h2>
+        <img data-aos="fade-left" class="header__paw paw__right" src="./assets/dog-paw-one.png" alt="dog paw prints">
+        <img data-aos="fade-right" class="header__paw paw__left" src="./assets/dog-paw-two.png" alt="dog paw prints">
         <img id="header__cat" src="./assets/header-cat.png" alt="cat">
     </header>
     <main>
@@ -35,28 +36,28 @@
         <section class="services">
             <h1 class="title">Our Services</h1>
             <div class="services__content">
-                <div class="service__box" id="veterinary__img">
+                <div data-aos="flip-left" class="service__box" id="veterinary__img">
                     <svg class="service__icon" xmlns="http://www.w3.org/2000/svg" height="16" width="18" viewBox="0 0 576 512"><path d="M142.4 21.9c5.6 16.8-3.5 34.9-20.2 40.5L96 71.1V192c0 53 43 96 96 96s96-43 96-96V71.1l-26.1-8.7c-16.8-5.6-25.8-23.7-20.2-40.5s23.7-25.8 40.5-20.2l26.1 8.7C334.4 19.1 352 43.5 352 71.1V192c0 77.2-54.6 141.6-127.3 156.7C231 404.6 278.4 448 336 448c61.9 0 112-50.1 112-112V265.3c-28.3-12.3-48-40.5-48-73.3c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V336c0 97.2-78.8 176-176 176c-92.9 0-168.9-71.9-175.5-163.1C87.2 334.2 32 269.6 32 192V71.1c0-27.5 17.6-52 43.8-60.7l26.1-8.7c16.8-5.6 34.9 3.5 40.5 20.2zM480 224a32 32 0 1 0 0-64 32 32 0 1 0 0 64z"/></svg>
                 </div>
-                <a href="#veterinary__section" class="service__box service__btn service__one" id="veterinary__text">
+                <a data-aos="flip-left" data-aos-delay="100" href="#veterinary__section" class="service__box service__btn service__one" id="veterinary__text">
                     <div class="hide__img hide__cat"></div>
                     <img class="service__image service__cat" id="service__one__img" src="./assets/hover-cat.png" alt="cat looking down">
                     <h2>VETERINARY</h2>
                 </a>
 
-                <a href="#grooming__section" class="service__box service__btn service__two" id="grooming__text">
+                <a data-aos="flip-left" data-aos-delay="200" href="#grooming__section" class="service__box service__btn service__two" id="grooming__text">
                     <div class="hide__img hide__dog"></div>
                     <img class="service__image service__dog" id="service__two__img" src="./assets/hover-dog.png" alt="dog">
                     <h2>GROOMING</h2>
                 </a>
-                <div class="service__box" id="grooming__img">
+                <div data-aos="flip-left" data-aos-delay="300" class="service__box" id="grooming__img">
                     <svg class="service__icon" xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><path d="M96 77.3c0-7.3 5.9-13.3 13.3-13.3c3.5 0 6.9 1.4 9.4 3.9l14.9 14.9C130 91.8 128 101.7 128 112c0 19.9 7.2 38 19.2 52c-5.3 9.2-4 21.1 3.8 29c9.4 9.4 24.6 9.4 33.9 0L289 89c9.4-9.4 9.4-24.6 0-33.9c-7.9-7.9-19.8-9.1-29-3.8C246 39.2 227.9 32 208 32c-10.3 0-20.2 2-29.2 5.5L163.9 22.6C149.4 8.1 129.7 0 109.3 0C66.6 0 32 34.6 32 77.3V256c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H96V77.3zM32 352v16c0 28.4 12.4 54 32 71.6V480c0 17.7 14.3 32 32 32s32-14.3 32-32V464H384v16c0 17.7 14.3 32 32 32s32-14.3 32-32V439.6c19.6-17.6 32-43.1 32-71.6V352H32z"/></svg>
                 </div>
 
-                <div class="service__box" id="adoption__img">
+                <div data-aos="flip-left" data-aos-delay="400" class="service__box" id="adoption__img">
                     <svg class="service__icon" xmlns="http://www.w3.org/2000/svg" height="16" width="18" viewBox="0 0 576 512"><path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg>
                 </div>
-                <a href="#adoption__section" class="service__box service__btn service__three" id="adoption__text">
+                <a data-aos="flip-left" data-aos-delay="500" href="#adoption__section" class="service__box service__btn service__three" id="adoption__text">
                     <div class="hide__img hide__tail"></div>
                     <img class="service__image service__tail" id="service__three__img" src="./assets/hover-tail.png" alt="cat tail">
                     <h2>ADOPTION</h2>
@@ -69,29 +70,29 @@
             <div class="veterinary__content">
                 <h1 class="title">Veterinary Service</h1>
                 <p class="text">We prioritize the health and happiness of your beloved pets. Our dedicated team of experienced veterinarians and compassionate staff is committed to providing top-tier veterinary care for your furry family members.</p>
-                <img id="veterinary__cat__img" src="./assets/doctor-cat.png" alt="cat dressed like a doctor">
+                <img data-aos="fade-up" data-aos-delay="500" id="veterinary__cat__img" src="./assets/doctor-cat.png" alt="cat dressed like a doctor">
             </div>
             <ul class="veterinary__list__container">
-                <li class="veterinary__list">
+                <li data-aos="fade-right" data-aos-duration="500" class="veterinary__list">
                     <h3>Wellness Examinations:</h3>
                     <p>Ensure your pet's overall health with our thorough wellness examinations. We focus on preventive care to keep your pet in optimal condition.</p>
                 </li>
-                <li class="veterinary__list">
+                <li data-aos="fade-left" data-aos-duration="500" class="veterinary__list">
                     <h3>Vaccinations:</h3>
                     <p>Stay ahead of potential health issues with our comprehensive vaccination programs and preventive medicine solutions. Your pet's well-being is our priority.</p>
                 </li>
-                <li class="veterinary__list">
+                <li data-aos="fade-right" data-aos-duration="500" class="veterinary__list">
                     <h3>Diagnostics and Imaging:</h3>
                     <p>Utilizing state-of-the-art technology, we offer precise diagnostic services and imaging to identify and address any underlying health concerns.</p>
                 </li>
-                <li class="veterinary__list">
+                <li data-aos="fade-left" data-aos-duration="500" class="veterinary__list">
                     <h3>Dental Care:</h3>
                     <p>Maintain your pet's dental health with our professional dental care services, including cleanings and treatments to keep their smile bright and healthy.</p>
                 </li>
             </ul>
             <div id="veterinary__cta__conateiner">
                 <h3>SCHEDULE YOUR PET'S APPOINTMENT TODAY:</h3>
-                <a class="cta__btn" href="#">SCHEDULE APPOINTMENT</a>
+                <a data-aos="zoom-in" data-aos-duration="700" class="cta__btn" href="#">SCHEDULE APPOINTMENT</a>
                 <img id="veterinary__dog__img" src="./assets/veterinary-section-dog.png" alt="black dog looking up">
             </div>
         </section>
@@ -103,26 +104,26 @@
             </div>
             <div class="two__section">
                 <ul class="grooming__list__container">
-                    <li class="grooming__item">
+                    <li data-aos="flip-up" data-aos-duration="700" class="grooming__item">
                         <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 512 512"><path d="M96 77.3c0-7.3 5.9-13.3 13.3-13.3c3.5 0 6.9 1.4 9.4 3.9l14.9 14.9C130 91.8 128 101.7 128 112c0 19.9 7.2 38 19.2 52c-5.3 9.2-4 21.1 3.8 29c9.4 9.4 24.6 9.4 33.9 0L289 89c9.4-9.4 9.4-24.6 0-33.9c-7.9-7.9-19.8-9.1-29-3.8C246 39.2 227.9 32 208 32c-10.3 0-20.2 2-29.2 5.5L163.9 22.6C149.4 8.1 129.7 0 109.3 0C66.6 0 32 34.6 32 77.3V256c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H96V77.3zM32 352v16c0 28.4 12.4 54 32 71.6V480c0 17.7 14.3 32 32 32s32-14.3 32-32V464H384v16c0 17.7 14.3 32 32 32s32-14.3 32-32V439.6c19.6-17.6 32-43.1 32-71.6V352H32z"/></svg>
                         <h3>LUXURIOUS BATH</h3>
                     </li>
-                    <li class="grooming__item">
+                    <li data-aos="flip-up" data-aos-duration="700" data-aos-delay="100" class="grooming__item">
                         <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 512 512"><path d="M256 192l-39.5-39.5c4.9-12.6 7.5-26.2 7.5-40.5C224 50.1 173.9 0 112 0S0 50.1 0 112s50.1 112 112 112c14.3 0 27.9-2.7 40.5-7.5L192 256l-39.5 39.5c-12.6-4.9-26.2-7.5-40.5-7.5C50.1 288 0 338.1 0 400s50.1 112 112 112s112-50.1 112-112c0-14.3-2.7-27.9-7.5-40.5L499.2 76.8c7.1-7.1 7.1-18.5 0-25.6c-28.3-28.3-74.1-28.3-102.4 0L256 192zm22.6 150.6L396.8 460.8c28.3 28.3 74.1 28.3 102.4 0c7.1-7.1 7.1-18.5 0-25.6L342.6 278.6l-64 64zM64 112a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm48 240a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
                         <h3>EXPERTS HAIRCUTS</h3>
                     </li>
-                    <li class="grooming__item">
+                    <li data-aos="flip-up" data-aos-duration="700" data-aos-delay="200" class="grooming__item">
                         <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 512 512"><path d="M226.5 92.9c14.3 42.9-.3 86.2-32.6 96.8s-70.1-15.6-84.4-58.5s.3-86.2 32.6-96.8s70.1 15.6 84.4 58.5zM100.4 198.6c18.9 32.4 14.3 70.1-10.2 84.1s-59.7-.9-78.5-33.3S-2.7 179.3 21.8 165.3s59.7 .9 78.5 33.3zM69.2 401.2C121.6 259.9 214.7 224 256 224s134.4 35.9 186.8 177.2c3.6 9.7 5.2 20.1 5.2 30.5v1.6c0 25.8-20.9 46.7-46.7 46.7c-11.5 0-22.9-1.4-34-4.2l-88-22c-15.3-3.8-31.3-3.8-46.6 0l-88 22c-11.1 2.8-22.5 4.2-34 4.2C84.9 480 64 459.1 64 433.3v-1.6c0-10.4 1.6-20.8 5.2-30.5zM421.8 282.7c-24.5-14-29.1-51.7-10.2-84.1s54-47.3 78.5-33.3s29.1 51.7 10.2 84.1s-54 47.3-78.5 33.3zM310.1 189.7c-32.3-10.6-46.9-53.9-32.6-96.8s52.1-69.1 84.4-58.5s46.9 53.9 32.6 96.8s-52.1 69.1-84.4 58.5z"/></svg>
                         <h3>NAIL TRIMMING AND PAWDICURE</h3>
                     </li>
-                    <li class="grooming__item">
+                    <li data-aos="flip-up" data-aos-duration="700" data-aos-delay="300" class="grooming__item">
                         <svg xmlns="http://www.w3.org/2000/svg" height="20" width="18" viewBox="0 0 448 512"><path d="M186.1 52.1C169.3 39.1 148.7 32 127.5 32C74.7 32 32 74.7 32 127.5v6.2c0 15.8 3.7 31.3 10.7 45.5l23.5 47.1c4.5 8.9 7.6 18.4 9.4 28.2l36.7 205.8c2 11.2 11.6 19.4 22.9 19.8s21.4-7.4 24-18.4l28.9-121.3C192.2 323.7 207 312 224 312s31.8 11.7 35.8 28.3l28.9 121.3c2.6 11.1 12.7 18.8 24 18.4s20.9-8.6 22.9-19.8l36.7-205.8c1.8-9.8 4.9-19.3 9.4-28.2l23.5-47.1c7.1-14.1 10.7-29.7 10.7-45.5v-2.1c0-55-44.6-99.6-99.6-99.6c-24.1 0-47.4 8.8-65.6 24.6l-3.2 2.8 19.5 15.2c7 5.4 8.2 15.5 2.8 22.5s-15.5 8.2-22.5 2.8l-24.4-19-37-28.8z"/></svg>
                         <h3>EAR CLEANING AND TEETH  BRUSHING</h3>
                     </li>
                 </ul>
                 <div class="grooming__cta__container">
                     <h3>BOOK YOUR PET'S SPA DAY NOW:</h3>
-                    <a class="cta__btn" href="#">BOOK NOW</a>
+                    <a data-aos="zoom-in" data-aos-duration="700" class="cta__btn" href="#">BOOK NOW</a>
                     <img id="grooming__dog__img" src="./assets/grooming-dog.png" alt="dog brushing tooth wering a shower cap">
                 </div>
             </div>
@@ -133,17 +134,17 @@
             <p class="text">We believe in the power of love and second chances. In collaboration with The RescuePaws Foundation, our adoption services go beyond finding homes – we create families. Discover the joy of bringing a new furry friend into your life through our dedicated adoption program.</p>
             <div class="two__section">
                 <div class="adoption__tools__container">
-                    <img id="adoption__cat__img" src="./assets/adoption-cat.png" alt="black cat">
+                    <img data-aos="fade-right" id="adoption__cat__img" src="./assets/adoption-cat.png" alt="black cat">
                     <ul class="adoption__itens__container">
-                        <li class="adoption__item">
+                        <li data-aos="zoom-in" class="adoption__item">
                             <svg xmlns="http://www.w3.org/2000/svg" height="40" width="40" viewBox="0 0 512 512"><path d="M226.5 92.9c14.3 42.9-.3 86.2-32.6 96.8s-70.1-15.6-84.4-58.5s.3-86.2 32.6-96.8s70.1 15.6 84.4 58.5zM100.4 198.6c18.9 32.4 14.3 70.1-10.2 84.1s-59.7-.9-78.5-33.3S-2.7 179.3 21.8 165.3s59.7 .9 78.5 33.3zM69.2 401.2C121.6 259.9 214.7 224 256 224s134.4 35.9 186.8 177.2c3.6 9.7 5.2 20.1 5.2 30.5v1.6c0 25.8-20.9 46.7-46.7 46.7c-11.5 0-22.9-1.4-34-4.2l-88-22c-15.3-3.8-31.3-3.8-46.6 0l-88 22c-11.1 2.8-22.5 4.2-34 4.2C84.9 480 64 459.1 64 433.3v-1.6c0-10.4 1.6-20.8 5.2-30.5zM421.8 282.7c-24.5-14-29.1-51.7-10.2-84.1s54-47.3 78.5-33.3s29.1 51.7 10.2 84.1s-54 47.3-78.5 33.3zM310.1 189.7c-32.3-10.6-46.9-53.9-32.6-96.8s52.1-69.1 84.4-58.5s46.9 53.9 32.6 96.8s-52.1 69.1-84.4 58.5z"/></svg>
                             <h3>RESCUE</h3>
                         </li>
-                        <li class="adoption__item">
+                        <li data-aos="zoom-in" class="adoption__item">
                             <svg xmlns="http://www.w3.org/2000/svg" height="40" width="42" viewBox="0 0 576 512"><path d="M142.4 21.9c5.6 16.8-3.5 34.9-20.2 40.5L96 71.1V192c0 53 43 96 96 96s96-43 96-96V71.1l-26.1-8.7c-16.8-5.6-25.8-23.7-20.2-40.5s23.7-25.8 40.5-20.2l26.1 8.7C334.4 19.1 352 43.5 352 71.1V192c0 77.2-54.6 141.6-127.3 156.7C231 404.6 278.4 448 336 448c61.9 0 112-50.1 112-112V265.3c-28.3-12.3-48-40.5-48-73.3c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V336c0 97.2-78.8 176-176 176c-92.9 0-168.9-71.9-175.5-163.1C87.2 334.2 32 269.6 32 192V71.1c0-27.5 17.6-52 43.8-60.7l26.1-8.7c16.8-5.6 34.9 3.5 40.5 20.2zM480 224a32 32 0 1 0 0-64 32 32 0 1 0 0 64z"/></svg>
                             <h3>CARE FOR</h3>
                         </li>
-                        <li class="adoption__item">
+                        <li data-aos="zoom-in" class="adoption__item">
                             <svg xmlns="http://www.w3.org/2000/svg" height="40" width="42" viewBox="0 0 576 512"><path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg>
                             <h3>FIND A HOME</h3>
                         </li>
@@ -151,7 +152,7 @@
                 </div>
                 <div class="adoption__cta__container">
                     <h3 class="cta__text">MEET YOUR NEXT FRIEND:</h3>
-                    <a class="cta__btn" href="#">KNOW THE PETS</a>
+                    <a data-aos="zoom-in" class="cta__btn" href="#">KNOW THE PETS</a>
                 </div>
             </div>
         </section>
@@ -160,7 +161,8 @@
             <section class="contact">
                 <h1 class="title">Contact Us</h1>
                 <div class="contact__container">
-                    <img class="contact__dog__img" src="./assets/dog-ears.png" alt="dog ears">
+                    <img data-aos="fade-up" class="contact__dog__img" src="./assets/dog-ears.png" alt="dog ears">
+                    <div class="contact__background"></div>
                     <h3>ANY ISSUES OR QUESTIONS, FEEL FREE TO REACH OUT. </h3>
                     <h3>WE'RE ALL EARS.</h3>
                     <div class="contact__item">
@@ -211,8 +213,10 @@
             <a href="https://github.com/biaTrivillin" target="_blank"><svg class="icon" xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 448 512"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM277.3 415.7c-8.4 1.5-11.5-3.7-11.5-8 0-5.4.2-33 .2-55.3 0-15.6-5.2-25.5-11.3-30.7 37-4.1 76-9.2 76-73.1 0-18.2-6.5-27.3-17.1-39 1.7-4.3 7.4-22-1.7-45-13.9-4.3-45.7 17.9-45.7 17.9-13.2-3.7-27.5-5.6-41.6-5.6-14.1 0-28.4 1.9-41.6 5.6 0 0-31.8-22.2-45.7-17.9-9.1 22.9-3.5 40.6-1.7 45-10.6 11.7-15.6 20.8-15.6 39 0 63.6 37.3 69 74.3 73.1-4.8 4.3-9.1 11.7-10.6 22.3-9.5 4.3-33.8 11.7-48.3-13.9-9.1-15.8-25.5-17.1-25.5-17.1-16.2-.2-1.1 10.2-1.1 10.2 10.8 5 18.4 24.2 18.4 24.2 9.7 29.7 56.1 19.7 56.1 19.7 0 13.9.2 36.5.2 40.6 0 4.3-3 9.5-11.5 8-66-22.1-112.2-84.9-112.2-158.3 0-91.8 70.2-161.5 162-161.5S388 165.6 388 257.4c.1 73.4-44.7 136.3-110.7 158.3zm-98.1-61.1c-1.9.4-3.7-.4-3.9-1.7-.2-1.5 1.1-2.8 3-3.2 1.9-.2 3.7.6 3.9 1.9.3 1.3-1 2.6-3 3zm-9.5-.9c0 1.3-1.5 2.4-3.5 2.4-2.2.2-3.7-.9-3.7-2.4 0-1.3 1.5-2.4 3.5-2.4 1.9-.2 3.7.9 3.7 2.4zm-13.7-1.1c-.4 1.3-2.4 1.9-4.1 1.3-1.9-.4-3.2-1.9-2.8-3.2.4-1.3 2.4-1.9 4.1-1.5 2 .6 3.3 2.1 2.8 3.4zm-12.3-5.4c-.9 1.1-2.8.9-4.3-.6-1.5-1.3-1.9-3.2-.9-4.1.9-1.1 2.8-.9 4.3.6 1.3 1.3 1.8 3.3.9 4.1zm-9.1-9.1c-.9.6-2.6 0-3.7-1.5s-1.1-3.2 0-3.9c1.1-.9 2.8-.2 3.7 1.3 1.1 1.5 1.1 3.3 0 4.1zm-6.5-9.7c-.9.9-2.4.4-3.5-.6-1.1-1.3-1.3-2.8-.4-3.5.9-.9 2.4-.4 3.5.6 1.1 1.3 1.3 2.8.4 3.5zm-6.7-7.4c-.4.9-1.7 1.1-2.8.4-1.3-.6-1.9-1.7-1.5-2.6.4-.6 1.5-.9 2.8-.4 1.3.7 1.9 1.8 1.5 2.6z"/></svg></a>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
-    <script src="./js/glider.js"></script>
-    <script src="./js/services-animation.js"></script>
 </body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="./js/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+<script src="./js/glider.js"></script>
+<script src="./js/services-animation.js"></script>
 </html>

@@ -205,10 +205,11 @@ header h2 {
 
 .veterinary__list {
     width: 29rem;
-    background-color: transparent;
+    background-color: var(--color-background);
     border: 0.5rem solid var(--color-text);
     list-style: none;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 1;
 }
 
 .veterinary__list h3 {
@@ -329,6 +330,14 @@ header h2 {
 
 .contact__dog__img {
     width: 15rem;
+    z-index: -2;
+}
+
+.contact__background {
+    background-color: var(--lilac-background);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
 }
 
 /* --------------------- FOOTER --------------------- */
