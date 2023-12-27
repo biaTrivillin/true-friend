@@ -24,7 +24,7 @@
 
 - The project's design was developed adopting a "mobile-first" approach, enabling the creation of a responsive page with minimal interventions through media queries. This also ensures a smooth and practical browsing experience, even on mobile devices.
 <div align="center">
-  <img src="assets/mobile.gif" width="500px">
+  <img src="assets/responsive.gif" width="500px">
 </div><br><br>
 <div align="center">
   <img src="assets/mobile.gif" width="500px">
@@ -37,7 +37,7 @@
 
 - Use of container-type buttons to give greater emphasis to the action, complemented by visual feedback through hover and active events.
 <div align="center">
-  <img src="assets/responsive.gif" width="500px">
+  <img src="assets/btn.gif" width="500px">
 </div><br><br>
 
 - Implementation of the "Services" section to provide quick and intuitive navigation through various sections of the page, all with just one click.
