@@ -109,10 +109,19 @@
     margin-top: 11rem;
   }
 
+  .grooming__item svg {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .grooming__list__container {
+    justify-self: center;
+  }
+
   .grooming__cta__container {
     margin: 0;
     align-self: center;
-    justify-self: center;
+    justify-self: start;
   }
 
   .adoption__service {
@@ -128,6 +137,10 @@
 
   .adoption__tools__container {
     margin-left: 2rem;
+  }
+
+  footer {
+    margin-top: 5rem;
   }
 
   footer h3 {
