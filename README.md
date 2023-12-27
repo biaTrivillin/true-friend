@@ -22,7 +22,7 @@
 
 ## Features and Details
 
-- The project's design was developed adopting a "mobile-first" approach, enabling the creation of a responsive page with minimal interventions through media queries. This also ensures a smooth and practical browsing experience, even on mobile devices.
+- The project's design was developed adopting a **"mobile-first"** approach, enabling the creation of a responsive page with minimal interventions through media queries. This also ensures a smooth and practical browsing experience, even on mobile devices.
 <div align="center">
   <img src="assets/responsive-tf.gif" width="500px">
 </div><br>
@@ -30,22 +30,22 @@
   <img src="assets/mobile.gif" width="500px">
 </div><br><br>
 
-- The implementation of Glider allowed the creation of a lightweight, fast slider that is fully compatible with mobile devices, dependency-free, and provides complete accessibility through keyboard navigation.
+- The implementation of **glider.js** allowed the creation of a lightweight, fast slider that is fully compatible with mobile devices, dependency-free, and provides complete accessibility through keyboard navigation.
 <div align="center">
   <img src="assets/slider.gif" width="500px">
 </div><br><br>
 
-- Use of container-type buttons to give greater emphasis to the action, complemented by visual feedback through hover and active events.
+- Use of **container-type buttons** to give greater emphasis to the action, complemented by visual feedback through **hover and active events**.
 <div align="center">
   <img src="assets/btn.gif" width="500px">
 </div><br><br>
 
-- Implementation of the "Services" section to provide quick and intuitive navigation through various sections of the page, all with just one click.
+- Implementation of the "Services" section to provide **quick and intuitive navigation** through various sections of the page, all with just one click.
 <div align="center">
   <img src="assets/nav.gif" width="500px">
 </div><br><br>
 
-- Application of the Animate On Scroll Library (AOS), enabling the integration of animations that appear as the user scrolls through the page. This contributes to the creation of a visually engaging and attractive webpage.
+- Application of the **Animate On Scroll Library (AOS)**, enabling the integration of animations that appear as the user scrolls through the page. This contributes to the creation of a visually engaging and attractive webpage.
 <div align="center">
   <img src="assets/scroll.gif" width="500px">
 </div><br><br>
