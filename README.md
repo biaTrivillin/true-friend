@@ -40,7 +40,7 @@
   <img src="assets/btn.gif" width="500px">
 </div><br><br>
 
-- Implementation of the "Services" section to provide **quick and intuitive navigation** through various sections of the page, all with just one click.
+- Implementation of the "Our Services" section to provide **quick and intuitive navigation** through various sections of the page, all with just one click.
 <div align="center">
   <img src="assets/nav.gif" width="500px">
 </div><br><br>
@@ -49,12 +49,6 @@
 <div align="center">
   <img src="assets/scroll.gif" width="500px">
 </div><br><br>
-
-## Running the application 🏃🏻‍♀️
-```bash
-  npm run dev
-```
-<br>
 
 ## Deploy 💻
 The project was deployed using the Vercel platform and is available at the [link](https://true-friend.vercel.app/)
